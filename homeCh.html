@@ -22,8 +22,12 @@
 		</div>
 		<script>
 			function Load(){
-				alert("你现在在地球。通过继续浏览网页，你承认你明白网站里的任何内容都有可能是为娱乐目的而编造的并且愿意承担一切潜在后果。")
+				if (storedItem == null){
+					alert("It has been detected that you are a viewer from Earth. By proceeding, you understand that information on this website can be fabricated for its sole purpose of entertainment and are willing to bear any potential consequences.")
+				} 
+				let storedItem = localStorage.getItem("storedItem", true);
 			}
+
 		</script>
 	</body>
 </html>
