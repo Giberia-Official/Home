@@ -20,14 +20,18 @@ p{
 }
 	
 .NavLink li a{
-	padding: 50px, 25px;
+	padding-top: 30px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 30px;
 	text-align: left;
 	color: white;
 	font-size: 24px;
 	text-decoration: none
 }
 .NavLink li a:hover{
-	background-color:white;
+	background-color: white;
+	color: black;
 }
 .Header{
 	background-color: rgba(180, 0, 0, 1);
