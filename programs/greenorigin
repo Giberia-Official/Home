@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Green Origin - Giberia Official</title>
+		<link rel="icon" type="image/x-icon" href="./img/favicon.png">
+		<link rel="stylesheet" type="text/css" href="./giberiahome.css" media="screen" />
+	</head>
+
+	<body style="background-color: rgba(0, 200, 200, 1);">
+		<a href="./home-ch.html">中文</a>
+		<header class="Header" style="background-color: rgba(0, 180, 180, 1);">
+			<a style="text-decoration: none;" href="./home-en.html"><h1 class="Title">Giberia Official</h1></a>
+			<nav>
+				<ul class="NavLink">
+				    <li><a href="./parliament-en.html">Parliament</a></li>
+				    <li><a href="./college-en.html">College</a></li>
+				    <li><a href="./programs-en.html">Programs</a></li>
+				    <li><a href="https://mani-cretin.github.io/MCMA-Keystone/mainpage" target="_blank">Mani-Cretin</a></li>
+				</ul>
+			</nav>
+		</header>
+		<img style="width: 100%; opacity: 0.85" src="./img/marsimg_rgo.png" alt="Error">
+		<div>
+      <p>Green Origin is an advanced multinational corporation on Earth that makes great space travel products. The company was co-founded by Justin Jin, Tata Li, James Zhan, and Sophie Mao. The headquarter is located in the Mani Street of Jerusalem, Israel. The company makes cheap rockets that are powered by plasma engines. According to the Giberia College Journal, Green Origin is one of the most influencial company in universe and has generated 1000 googolplex GGC (General Galactic Currency) every day. Their rockets travel at a speed that is  faster than light. The minumum capacity of the rocket is 200 metric tons. The cost is $100 per kg. </p>
+    </div>
+	</body>
+</html>
