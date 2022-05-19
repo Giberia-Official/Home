@@ -24,11 +24,12 @@
 			<p>吉伯利亚城是马泥联邦的首都和马泥银河联盟的副首都。吉伯利亚城位于马泥银河联盟，奥力昂星区，马泥第二太阳系联邦，吉布兰自治区市中心，同时也在奥林匹斯山的山峰上。吉伯利亚城很著名的是马泥大学吉伯利亚学院——它拥有马泥文明所探索的所有的终极知识的精髓。通过giberia@outlook.com来联系我们。</p>
 		</div>
 		<script>
+			let storedItem = localStorage.getItem("storedItem");
 			function Load(){
 				if (storedItem == null){
 					alert("It has been detected that you are a viewer from Earth. By proceeding, you understand that information on this website can be fabricated for its sole purpose of entertainment and are willing to bear any potential consequences.")
 				} 
-				let storedItem = localStorage.getItem("storedItem", true);
+				localStorage.getItem("storedItem", true);
 			}
 
 		</script>
