@@ -22,15 +22,15 @@ p{
 	align-items: center;
 	padding-top: 40px;
 }
-.NavLink:hover{
-	background-color: white;
+	
 }
 .NavLink li a{
-	padding-right: 50px;
+	padding-right: 50px, 50px;
 	text-align: left;
 	color: white;
 	font-size: 24px;
 	text-decoration: none
+	background-color: white;
 }
 .Header{
 	background-color: rgba(180, 0, 0, 1);
